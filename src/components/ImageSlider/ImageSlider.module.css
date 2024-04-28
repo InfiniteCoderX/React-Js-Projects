@@ -1,0 +1,84 @@
+.main{
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 950px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.currentImages{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px #666;
+}
+
+.arrow{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    filter: drop-shadow(0px 0px 5px #555);
+    cursor: pointer;
+    transform: ease-in-out 0.3s;
+}
+.arrow:hover{
+    transform: scale(2);
+}
+
+
+.arrowLeft{
+    left: 1rem;
+    
+}
+
+.arrowRight{
+    right: 1rem;
+}
+
+
+.circleIndicators{
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.circleIndicator{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+
+.updateImge{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.638);
+    border: none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+.updateImge:hover{
+    transform: scale(1.1);
+}
+
+.hideImage{
+    display: none;
+}
+
